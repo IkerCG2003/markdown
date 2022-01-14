@@ -6,7 +6,14 @@ Los selectores de CSS se utilizan para seleccionar los elementos HTML que quiere
 
 Podemos dividir los selectores de CSS en cinco categorías:
 
-* Selectores simples (seleccionar elementos basados en nombre(body por ejemplo), id(#), clase(.))
+| Selectores | Definición |
+|------------|------------|
+| Selectores simples | seleccionar elementos basados en nombre(body por ejemplo), id(#), clase(.) |
+| Selectores combinadores | seleccionar elementos en función de una relación específica entre ellos |
+| Selectores de pseudoclase | seleccionar elementos en función de un determinado estado |
+| Selectores de pseudoelementos | seleccionar y diseñar una parte de un elemento |
+| Selectores de atributos | seleccionar elementos en función de un atributo o valor de atributo |
+
 
 _Este es un Selector de CSS de clase_
 
@@ -20,30 +27,50 @@ _Este es un Selector de CSS de nombre_
 
 ![](https://github.com/IkerCG2003/markdown/blob/main/css%20nombre.png)
 
-* Selectores combinadores (seleccionar elementos en función de una relación específica entre ellos)
-Hay cuatro tipos:
-* Descendiente (Espacio)
+_Descendiente (espacio)_
+
 Se aplica a los elementos que están dentro de otro elemento (o más exactamente, un elemento que es descendiente de otro elemento). 
 
 ![](https://github.com/IkerCG2003/markdown/blob/main/descendiente.jpg)
 
-* Hijo directo (<)
+_Hijo directo (<)_
+
 Este selector actúa sobre todos aquellos elementos que sean hijos de otro elemento especificado, pero que se encuentren en el primer nivel, es decir, si están dentro de otro elemento hijo de ese mismo padre, no serán tomados en cuenta.
 
 ![](https://github.com/IkerCG2003/markdown/blob/main/hijo%20directo.png)
 
-* Elemento adyacente (+)
+_Elemento adyacente (+)_
+
 Este selector afecta a los elementos que, teniendo el mismo elemento como padre, estén inmediatamente seguidos uno de otro, esta relación se representa con el símbolo + entre los selectores. 
 
 ![](https://github.com/IkerCG2003/markdown/blob/main/adyacente.png)
 
-* Elemento hermano (~)
+_Elemento hermano (~)_
+
 Este selector actúa sobre aquellos elementos que se encuentren precedidos por un elemento específico y que tengan como padre al mismo elemento, y se representa con el símbolo ~ entre los dos selectores.
 
 ![](https://github.com/IkerCG2003/markdown/blob/main/hermano.png)
 
-* Selectores de pseudoclase (seleccionar elementos en función de un determinado estado)
-* Selectores de pseudoelementos (seleccionar y diseñar una parte de un elemento)
-* Selectores de atributos (seleccionar elementos en función de un atributo o valor de atributo)
+# HTML file paths (indicar rutas de archivos)
 
+Vamos a indicar una ruta partiendo del directorio principal del proyecto (.), y a partir de ahí indicamos la ruta siguiendo la estructura de carpetas. Debajo voy a poner un par de ejemplos.
+
+| Ruta | Descripción |
+|------|-------------|
+| href="./css/styles.css" | indicamos que el archivo styles.css está dentro de la carpeta css |
+| img src="images/picture.jpg" | indicamos que la imagen picture.jpg está dentro de la carpeta images |
+
+# Navbar horizontal (Menú de navegación)
+
+Este menú tiene un float:left para que los elementos **li** de la lista estén alineados a la izquierda.
+
+![](https://github.com/IkerCG2003/markdown/blob/main/menu%20horizontal.png)
+
+# Navbar vertical
+
+Este menú sirve para viajar a ciertos puntos de una página web con un solo clic. Para hacerlo vamos a crear un índice con una lista ordenada (ol y li). Para hacer el vínculo ponemos dentro de la etiqueta **li** una **a** y el id de la parte a la que queremos ir con un nombre.
+  
+![](https://github.com/IkerCG2003/markdown/blob/main/men%C3%BA%20vertical.png)
+
+Las clases que tiene ese html con para darle el formato que queremos al menú, pero no afectan en su funcionalidad.
 
