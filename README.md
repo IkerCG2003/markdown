@@ -14,7 +14,6 @@ Podemos dividir los selectores de CSS en cinco categorías:
 | Selectores de pseudoelementos | seleccionar y diseñar una parte de un elemento |
 | Selectores de atributos | seleccionar elementos en función de un atributo o valor de atributo |
 
-
 _Este es un Selector de CSS de clase_
 
 ![](https://github.com/IkerCG2003/markdown/blob/main/css%20clase.png)
@@ -73,4 +72,28 @@ Este menú sirve para viajar a ciertos puntos de una página web con un solo cli
 ![](https://github.com/IkerCG2003/markdown/blob/main/men%C3%BA%20vertical.png)
 
 Las clases que tiene ese html con para darle el formato que queremos al menú, pero no afectan en su funcionalidad.
+
+# Alinea elementos
+
+## Alinear elementos al centro
+
+### Alinear texto al centro:
+
+Para alinear el texto al centro tenemos que utilizar la regla text-align:center. También se pueden utilizar las reglas que se van a mostrar a coninuación para alinear items al centro.
+
+![](https://github.com/IkerCG2003/markdown/blob/main/alinear%20texto%20al%20centro.png)
+
+### Alinear imaágenes al centro:
+
+Para alinear las imagenes se ponen las siguientes reglas para que esté correctamente sin desconfiguraciones.
+
+![](https://github.com/IkerCG2003/markdown/blob/main/alinear%20imagen%20al%20centro.png)
+
+# Smooth Scrolling (Desplazamiento Suave)
+
+El desplazamiento suave se utiliza en los menús. Su principal función es que haya un efecto suave en lo que la página viaja de un punto a otro, y no vaya de golpe.
+
+A continuación adjunto un video con un tutorial que explica como hacerlo. [clica para ver el video aquí](https://www.youtube.com/watch?v=MNNr7TU7XcU).
+
+# 
 
