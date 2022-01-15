@@ -50,7 +50,7 @@ Este selector actúa sobre aquellos elementos que se encuentren precedidos por u
 
 ![](https://github.com/IkerCG2003/markdown/blob/main/hermano.png)
 
-# HTML file paths (indicar rutas de archivos)
+## HTML file paths (indicar rutas de archivos)
 
 Vamos a indicar una ruta partiendo del directorio principal del proyecto (.), y a partir de ahí indicamos la ruta siguiendo la estructura de carpetas. Debajo voy a poner un par de ejemplos.
 
@@ -59,7 +59,7 @@ Vamos a indicar una ruta partiendo del directorio principal del proyecto (.), y 
 | href="./css/styles.css" | indicamos que el archivo styles.css está dentro de la carpeta css |
 | img src="images/picture.jpg" | indicamos que la imagen picture.jpg está dentro de la carpeta images |
 
-# Navbar horizontal (Menú de navegación)
+## Navbar horizontal (Menú de navegación)
 
 Este menú tiene un float:left para que los elementos **li** de la lista estén alineados a la izquierda.
 
@@ -73,17 +73,17 @@ Este menú sirve para viajar a ciertos puntos de una página web con un solo cli
 
 Las clases que tiene ese html con para darle el formato que queremos al menú, pero no afectan en su funcionalidad.
 
-# Alinea elementos
+## Alinea elementos
 
-## Alinear elementos al centro
+### Alinear elementos al centro
 
-### Alinear texto al centro:
+#### Alinear texto al centro:
 
 Para alinear el texto al centro tenemos que utilizar la regla text-align:center. También se pueden utilizar las reglas que se van a mostrar a coninuación para alinear items al centro.
 
 ![](https://github.com/IkerCG2003/markdown/blob/main/alinear%20texto%20al%20centro.png)
 
-### Alinear imaágenes al centro:
+#### Alinear imaágenes al centro:
 
 Para alinear las imagenes se ponen las siguientes reglas para que esté correctamente sin desconfiguraciones.
 
@@ -128,4 +128,16 @@ _HTML y reglas CSS para hacer la estructura (Se ve un poco pequeño porque sino 
 _Resultado de filas y columnas_
 
 ![](https://github.com/IkerCG2003/markdown/blob/main/muchas%20columnas%202.PNG)
+
+## iframe (marcos)
+
+El iframe se utiliza para icrustar cosas (videos, mapas, imágenes, etc) en una página web. Para hacerlo tenemos que utilizar la **etiqueta iframe src** y meter ahí dentro el enlace de lo que queramos incrustar. Ahora tenemos dos opciones, especificar el tamaño dentro de la etiqueta o en CSS.
+
+_Iframe de un Mapa_
+
+![](https://github.com/IkerCG2003/markdown/blob/main/mapas.PNG)
+
+_Iframe de un Video_
+
+![](https://github.com/IkerCG2003/markdown/blob/main/video.PNG)
 
