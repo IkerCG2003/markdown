@@ -141,3 +141,21 @@ _Iframe de un Video_
 
 ![](https://github.com/IkerCG2003/markdown/blob/main/video.PNG)
 
+## Responsive
+
+Esta regla se utiliza para adaptar el contenido de una página web a una pantalla de un teléfono móvil. Para hacerlo tenemos que crear la regla @media only screen and (max-width: **Medida que queramos en píxeles**) { _**Reglas para Adaptar**_}. Ahora voy a poner una estructura de columnas con la visión de pantalla de ordenador y pantalla de telefono móvil.
+
+_Responsive Vista Monitor y Reglas_
+
+![](https://github.com/IkerCG2003/markdown/blob/main/responsive%20reglas%20monitor.PNG)
+
+![](https://github.com/IkerCG2003/markdown/blob/main/vista%20monitor.PNG)
+
+_Responsive Vista Móvil y Reglas_
+
+![](https://github.com/IkerCG2003/markdown/blob/main/responsive%20reglas%20movil.PNG)
+
+![](https://github.com/IkerCG2003/markdown/blob/main/vista%20movil.PNG)
+
+Y hasta aquí la documentación, espero que os haya gustado.
+
