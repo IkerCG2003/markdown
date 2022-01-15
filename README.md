@@ -65,7 +65,7 @@ Este menú tiene un float:left para que los elementos **li** de la lista estén 
 
 ![](https://github.com/IkerCG2003/markdown/blob/main/menu%20horizontal.png)
 
-# Navbar vertical
+## Navbar vertical
 
 Este menú sirve para viajar a ciertos puntos de una página web con un solo clic. Para hacerlo vamos a crear un índice con una lista ordenada (ol y li). Para hacer el vínculo ponemos dentro de la etiqueta **li** una **a** y el id de la parte a la que queremos ir con un nombre.
   
@@ -89,11 +89,43 @@ Para alinear las imagenes se ponen las siguientes reglas para que esté correcta
 
 ![](https://github.com/IkerCG2003/markdown/blob/main/alinear%20imagen%20al%20centro.png)
 
-# Smooth Scrolling (Desplazamiento Suave)
+## Smooth Scrolling (Desplazamiento Suave)
 
 El desplazamiento suave se utiliza en los menús. Su principal función es que haya un efecto suave en lo que la página viaja de un punto a otro, y no vaya de golpe.
 
 A continuación adjunto un video con un tutorial que explica como hacerlo. [clica para ver el video aquí](https://www.youtube.com/watch?v=MNNr7TU7XcU).
 
-# 
+## Estructura de filas y columnas
+
+Para hacer esto vamos a crear una clase llamada **row** a un **div** para dar formato de fila a la estructura. Dentro del **div** vamos a crear tantos **divs** como filas queremos que tenga, y dentro de esos sub-divs vamos a añadir otros tantos que harán de columnas. Según el número de columnas que queremos que haya vamos a crear una clase con un ancho determinado.
+
+_Una Columna_
+
+![](https://github.com/IkerCG2003/markdown/blob/main/una%20columna.PNG)
+
+_Dos Columnas_
+
+![](https://github.com/IkerCG2003/markdown/blob/main/dos%20columnas.PNG)
+
+_Tres Columnas_
+
+![](https://github.com/IkerCG2003/markdown/blob/main/tres%20columnas.PNG)
+
+_Cuatro Columnas_
+
+![](https://github.com/IkerCG2003/markdown/blob/main/cuatro%20columnas.PNG)
+
+_Cinco Columnas_
+
+![](https://github.com/IkerCG2003/markdown/blob/main/cinco%20columnas.PNG)
+
+Ahora voy a mostrar una estructura de filas y columnas conmpleta.
+
+_HTML y reglas CSS para hacer la estructura (Se ve un poco pequeño porque sino no cabía)_
+
+![](https://github.com/IkerCG2003/markdown/blob/main/muchas%20columnas.PNG)
+
+_Resultado de filas y columnas_
+
+![](https://github.com/IkerCG2003/markdown/blob/main/muchas%20columnas%202.PNG)
 
