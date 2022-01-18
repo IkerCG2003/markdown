@@ -1,5 +1,20 @@
 # Documentación con MarkDown
 
+## Comandos Útiles de la Terminal
+
+> `pwd` te devuelve la ruta de la carpeta en la que estás ubicado.
+
+![](https://github.com/IkerCG2003/markdown/blob/main/pwd.PNG)
+
+> `git --version` te devuelve la versión de git que tienes instalado.
+
+![](https://github.com/IkerCG2003/markdown/blob/main/version.PNG)
+
+> `cd *ruta*` cambiar de directorio
+
+![](https://github.com/IkerCG2003/markdown/blob/main/cd.PNG)
+***
+
 ## Selectores CSS
 
 Los selectores de CSS se utilizan para seleccionar los elementos HTML que quieres modificar.
@@ -49,6 +64,7 @@ _Elemento hermano (~)_
 Este selector actúa sobre aquellos elementos que se encuentren precedidos por un elemento específico y que tengan como padre al mismo elemento, y se representa con el símbolo ~ entre los dos selectores.
 
 ![](https://github.com/IkerCG2003/markdown/blob/main/hermano.png)
+***
 
 ## HTML file paths (indicar rutas de archivos)
 
@@ -58,12 +74,14 @@ Vamos a indicar una ruta partiendo del directorio principal del proyecto (.), y 
 |------|-------------|
 | href="./css/styles.css" | indicamos que el archivo styles.css está dentro de la carpeta css |
 | img src="images/picture.jpg" | indicamos que la imagen picture.jpg está dentro de la carpeta images |
+***
 
 ## Navbar horizontal (Menú de navegación)
 
 Este menú tiene un float:left para que los elementos **li** de la lista estén alineados a la izquierda.
 
 ![](https://github.com/IkerCG2003/markdown/blob/main/menu%20horizontal.png)
+***
 
 ## Navbar vertical
 
@@ -72,6 +90,7 @@ Este menú sirve para viajar a ciertos puntos de una página web con un solo cli
 ![](https://github.com/IkerCG2003/markdown/blob/main/men%C3%BA%20vertical.png)
 
 Las clases que tiene ese html con para darle el formato que queremos al menú, pero no afectan en su funcionalidad.
+***
 
 ## Alinea elementos
 
@@ -82,18 +101,21 @@ Las clases que tiene ese html con para darle el formato que queremos al menú, p
 Para alinear el texto al centro tenemos que utilizar la regla text-align:center. También se pueden utilizar las reglas que se van a mostrar a coninuación para alinear items al centro.
 
 ![](https://github.com/IkerCG2003/markdown/blob/main/alinear%20texto%20al%20centro.png)
+***
 
 #### Alinear imaágenes al centro:
 
 Para alinear las imagenes se ponen las siguientes reglas para que esté correctamente sin desconfiguraciones.
 
 ![](https://github.com/IkerCG2003/markdown/blob/main/alinear%20imagen%20al%20centro.png)
+***
 
 ## Smooth Scrolling (Desplazamiento Suave)
 
 El desplazamiento suave se utiliza en los menús. Su principal función es que haya un efecto suave en lo que la página viaja de un punto a otro, y no vaya de golpe.
 
 A continuación adjunto un video con un tutorial que explica como hacerlo. [clica para ver el video aquí](https://www.youtube.com/watch?v=MNNr7TU7XcU).
+***
 
 ## Estructura de filas y columnas
 
@@ -128,6 +150,7 @@ _HTML y reglas CSS para hacer la estructura (Se ve un poco pequeño porque sino 
 _Resultado de filas y columnas_
 
 ![](https://github.com/IkerCG2003/markdown/blob/main/muchas%20columnas%202.PNG)
+***
 
 ## iframe (marcos)
 
@@ -140,6 +163,7 @@ _Iframe de un Mapa_
 _Iframe de un Video_
 
 ![](https://github.com/IkerCG2003/markdown/blob/main/video.PNG)
+***
 
 ## Responsive
 
